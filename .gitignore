@@ -1,0 +1,13 @@
+# Ignore Python cache files
+__pycache__/
+
+# Ignore pasta de dados
+.relatorios/
+
+# Ignore tipo de arquivo
+*.xlsx
+*.xls
+*.csv
+
+.token_cache.json
+*.json
