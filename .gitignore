@@ -3,12 +3,11 @@ __pycache__/
 
 # Ignore pasta de dados
 .relatorios/
+relatorios/
 
 # Ignore tipo de arquivo
 *.xlsx
 *.xls
 *.csv
-
-token_cache.json
 
 .json
