@@ -1,0 +1,7 @@
+playwright>=1.44          # automação de navegador
+requests>=2.32            # chamadas HTTP
+PyJWT>=2.8                # decodificar expiração do token
+python-dotenv>=1.0        # (opcional) ler .env com usuário/senha
+openpyxl>=3.1             # salvar .xlsx em utils.salvar_relatorio_em_pasta
+tqdm>=4.66                # (opcional) barra de progresso, se usar
+schedule
