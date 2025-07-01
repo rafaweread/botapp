@@ -10,4 +10,4 @@ __pycache__/
 *.csv
 
 .token_cache.json
-*.json
+.json
