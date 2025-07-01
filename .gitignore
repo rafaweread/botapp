@@ -9,5 +9,6 @@ __pycache__/
 *.xls
 *.csv
 
-.token_cache.json
+token_cache.json
+
 .json
