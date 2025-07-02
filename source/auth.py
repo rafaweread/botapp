@@ -62,8 +62,8 @@ def _perform_login() -> Tuple[str, datetime]:
     Faz login interativo com Playwright e devolve (token, expires_at).
     Lê usuário e senha de variáveis de ambiente BOTI_USER / BOTI_PASS.
     """
-    usuario = os.environ.get(_USER_ENV, "rafael.lemos")
-    senha   = os.environ.get(_PASS_ENV, "@Boti92664669")
+    usuario = os.environ.get(_USER_ENV, "")
+    senha   = os.environ.get(_PASS_ENV, "")
     if not usuario or not senha:
         raise RuntimeError(
             f"Credenciais não encontradas em variáveis de ambiente "
